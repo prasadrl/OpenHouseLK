@@ -1,0 +1,50 @@
+.avatar-container {
+  display: flex;
+  flex-direction: column;
+  width: 54px;
+  height: 54px;
+  margin: 12px;
+  border-radius: 50%;
+  background-color: #edc6c6;
+  border-color: #f0bdbd;
+  border-width: 2px;
+  border-style: solid;
+}
+
+.avatar-label {
+  width: 100%;
+  height: 15px;
+  overflow: auto;
+  text-align: center;
+  margin-top: 6px;
+  font-size: 9pt;
+  font-weight: 400;
+  color: #555;
+}
+
+.avatar-speaking-border {
+  border-color: blueviolet;
+  border-width: 2px;
+}
+
+.avatar-mic {
+  width: 60%;
+  height: 60%;
+  display: flex;
+  position: relative;
+  left: 6px;
+  top: 6px;
+}
+
+.badge-container {
+  width: 60%;
+  height: 60%;
+  border-radius: 50%;
+  background-color: #e6e5e5;
+  border-color: #e6e6e6;
+  position: relative;
+  top: 4px;
+  left: 10px;
+  align-self: flex-end;
+  align-content: flex-end;
+}

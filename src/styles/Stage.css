@@ -1,0 +1,88 @@
+.stage-container {
+  padding-top: 20px;
+  padding-left: 20px;
+  border-radius: 32px;
+  border-bottom-left-radius: 0px;
+  border-bottom-right-radius: 0px;
+  background-color: rgb(238, 235, 242);
+}
+
+.stage-controlview {
+  background-color: #fff;
+  padding: 0;
+  display: "flex";
+  flex-direction: "row";
+  justify-content: "center";
+}
+
+.room-title {
+  margin-left: 12px;
+  font-size: 14pt;
+  font-weight: 600;
+}
+
+.stage-footer {
+  padding: 20px;
+  font-size: 9pt;
+  margin-left: 5px;
+}
+
+.control-footer {
+  background-color: #fff;
+  height: 64px;
+}
+
+.avatar-container {
+  width: 54px;
+  height: 54px;
+  margin-top: 20px;
+  margin-left: 0px;
+  margin-bottom: 20px;
+  margin-right: 24px;
+  border-radius: 50%;
+  background-color: #edc6c6;
+  border-color: #f0bdbd;
+  border-width: 2px;
+  border-style: solid;
+}
+
+.leave-button {
+  margin-top: 10px;
+  border-radius: 20px;
+  background-color: rgb(242, 241, 241);
+  width: 110px;
+  height: 40px;
+  color: black;
+}
+
+.mic-button {
+  margin-top: 10px;
+  border-radius: 20px;
+  background-color: rgb(242, 241, 241);
+  width: 40px;
+  height: 40px;
+  color: black;
+}
+
+.loading-message {
+  color: black;
+  margin: auto;
+  width: 150px;
+  height: 200px;
+  font-family: serif;
+}
+
+@keyframes slideUp {
+  from {
+    opacity: 0;
+    transform: translateY(124px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0px);
+  }
+}
+
+.slideUpAnimation {
+  animation: slideUp 0.75s ease-in-out;
+}
